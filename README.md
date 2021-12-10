@@ -3,7 +3,9 @@
 Réalisation de l'[Advent of code 2021](https://adventofcode.com/) uniquement en C
 
 Liste des challenges:
-* [1er jour](https://github.com/Hikachhu/AdventOfCode2021/blob/main/day1/day1.c)
+* 1er jour
+  * [Part1](https://github.com/Hikachhu/AdventOfCode2021/blob/main/day1/Part1/day1.c)
+  * [Part2](https://github.com/Hikachhu/AdventOfCode2021/blob/main/day1/Part2/day1.c)
 * [2ème jour](https://github.com/Hikachhu/AdventOfCode2021/blob/main/day2/day2.c)
 * [3ème jour](https://github.com/Hikachhu/AdventOfCode2021/blob/main/day3/day3.c)
 * [4ème jour](https://github.com/Hikachhu/AdventOfCode2021/blob/main/day4/day4.c)
