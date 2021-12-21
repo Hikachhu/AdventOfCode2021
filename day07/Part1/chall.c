@@ -24,7 +24,7 @@ void sort(int a[],int n) {
 int main(){
 	int *lecture=(int*)malloc(10*sizeof(int)),i=0,median=0,tailleMedian=0,total=0;
 	char listInput[size];
-	FILE *fichier=fopen("Source.txt","r");
+	FILE *fichier=fopen("Input/Day7.txt","r");
 	fscanf(fichier,"%s", listInput);
 	char *lu = strtok(listInput, ",");
 	while(lu!=NULL){

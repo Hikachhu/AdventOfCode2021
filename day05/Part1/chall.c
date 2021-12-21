@@ -7,7 +7,7 @@
 int main(){
 	int i=0,x1I,x2I,y1I,y2I,listPos[size][size]={0},max=0,min=0,compt=0;
 	char listInput[size],current1[50],current2[50];
-	FILE *fichier=fopen("Source.txt","r");
+	FILE *fichier=fopen("Input/Day5.txt","r");
 	
 	while(fscanf(fichier,"%s", listInput)==1){
 	//	printf("%s\n",listInput);
