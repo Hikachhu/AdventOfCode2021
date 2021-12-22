@@ -150,6 +150,19 @@ then
 elif [ "$1" == "exec" ] && [ $# == 3 ]
 then
 	DayPart $2 $3 "exec"
+elif [ "$1" == "c" ]
+then
+	if [[ $2 -ge 1 && $2 -le 9 ]];
+	then
+		day=0$2
+	else
+		day=$2
+	fi
+	i=day$day/Part"$3"
+	echo -e "compil $i"
+	gcc -o $i/chall $i/chall.c
+	echo -e "exec $i"
+	./$i/chall
 elif [ "$1" == "clean" ]
 then
 	for i in day{01..24}/Part{1,2}
